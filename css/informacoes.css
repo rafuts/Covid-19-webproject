@@ -1,0 +1,230 @@
+
+   
+
+        footer {
+          background-color: rgb(0, 70, 136);
+          padding: 5em 0;
+          padding-bottom: 25px;
+          padding-top: 25px;
+          border-top: 5px solid #86beff;
+          
+          
+            
+        }
+        
+        footer h2, footer p, footer a, footer span {
+          color: #D1D1D1;
+        }
+        
+        footer h2 {
+          font-weight: 400;
+        }
+        
+        footer a {
+          text-decoration: none;
+        }
+        
+        footer ul {
+          padding: 0;
+        }
+        
+        footer li {
+          list-style: none;
+        }
+        
+        .footer-box {
+          width: 31%;
+          padding: 1%;
+          float: left;
+        }
+        
+        footer .wrapper:after {
+          clear: both;
+          content: "";
+          display: block;
+        }
+        
+        .company-footer {
+          width: 50%;
+        }
+        
+        .company-footer h2 {
+          margin-top: 20px;
+        }
+        
+        .company-footer h2, .company-footer p {
+          margin-bottom: 20px;
+        }
+        
+        .footer-list li {
+          margin-bottom: 15px;
+        }
+        
+        .footer-list a {
+          transition: 0.5s;
+        }
+        
+        .footer-list a:hover {
+          color: #FFF;
+        }
+        
+        .footer-list li:after {
+          clear: both;
+          content: "";
+          display: block;
+        }
+        
+        .articles-footer {
+          width: 80%;
+        }
+        
+        .footer-list.footer-article-list span {
+          display: block;
+          float: none;
+        }
+        
+        .fab {
+          font-size: 30px;
+          margin-right: 10px;
+          float: left;
+        }
+        
+        .footer-list li span {
+          float: left;
+          height: 30px;
+          line-height: 30px;
+        }
+        
+        .footer-bottom {
+          border-top: 1px solid #B2B2B2;
+        }
+        
+        .footer-bottom p {
+          font-weight: 600;
+          margin-top: 40px;
+        }
+
+
+        body,.menu,.linha
+
+
+
+
+
+p {
+
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+
+
+}
+
+
+
+.link {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.header {
+
+    background-color: rgb(56, 116, 206);
+    border-bottom: 5px solid #86beff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+
+}
+
+.menu {
+
+
+    display: flex;
+
+}
+
+.menu li{
+
+    margin-left: 10px;
+
+}
+
+.menu li link{
+
+    display: block;
+    padding: 10px;
+
+}
+
+
+.center {
+
+
+	text-align: center;
+
+}
+
+.wrapper p {
+	margin-left: 10px;
+
+}
+      
+/* TEXTOS DA PÁGINA e imagens */
+
+
+.imagem1 img {
+
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    margin-left: 50px;
+    border: solid 1px;
+  
+
+}
+
+.texto1 {
+
+  margin-left:50px;
+
+}
+
+
+.texto2 {
+
+  padding: 10px;
+  margin-left: 650px;
+  margin-top: -440px;
+
+}
+
+.texto3 {
+
+  padding: 10px;
+  margin-left: 650px;
+
+
+}
+
+.texto4 {
+
+  margin-left: 50px;
+
+}
+
+
+.texto5 {
+
+  margin-left: 50px;
+  
+
+}
+

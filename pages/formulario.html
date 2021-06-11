@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário</title>
+<link rel="stylesheet" type="text/css" href="formulario.css" media="screen" />
+
+
+</head>
+
+<header class="header">
+  <a class="link">#TODOS CONTRA O CORONAVÍRUS</a>
+  <nav>
+    <ul class="menu">
+
+      <li class="linha" ><a class="link" href="index.html">página inicial</a></li>
+      <li class="linha" ><a class="link" href="informacoes.html">informações</a></li>
+      <li><a class="link" href="formulario.html">pré-cadastro</a></li>
+      <li><a class="link" href="contagio.html">contágio</a></li>
+      <li><a class="link" href="isolamento.html">isolamento social</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+
+
+
+
+<body>
+
+
+  <div class="formulario1">
+
+    <h3>Formulário Cadastro</h3>
+    <p>Caso apresente algum sintoma favor preencher o formulário abaixo </p>
+
+  </div>
+
+  
+    <div class="dados">
+
+    
+    <form action="" name="form">
+
+        <h3>Dados pessoais</h3>
+    
+        <label for="fname">Nome completo</label><br><br>
+        <input placeholder="Nome completo" style="width: 350px;" type="text" name="nome"><br><br>
+        <label for="fcartao">Nº Cartão SUS</label><br><br>
+        <input placeholder="Somente Nº" style="width:125px" type="text" name="cartao"><br><br>
+        <label for="fcpf">CPF</label><br><br>
+        <input placeholder="Ex. :000.000.000-00" type="text" name="cpf"><br><br>
+        <label for="fnascimento"></label>Data Nascimento<br><br>
+        <input placeholder="Ex. :00/00/0000 " style="width: 125px" type="text" name="data"><br><br>
+        <label for="fsexo">Sexo</label><br><br>
+        <select style="width: 120px" name="sexo" id="sexo">
+        <option value="selecionar">Selecionar</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+    
+    </select>
+    
+    <br><br>
+    
+     <h3>Dados do caso</h3>
+    
+     <label for="ftemp">Temperatura aferida:</label><br><br>
+     <input placeholder="Somente Nº Ex: 39.5" style="width: 150px;" type="text" name="temperatura">
+     <br><br>
+     <label for="fdata">Data dos primeiros sintomas</label><br><br>
+     <input type="date" id="date">
+    
+     <h4>Você possui alguma comorbidade?</h4>
+    
+     <input type="radio" id="sim" value="sim"> 
+     <label for="aceitar">Sim</label><br><br>
+     <input type="radio" id="não" value="não"> 
+     <label for="aceitar">Não</label><br><br>
+     
+     <input type="checkbox" name="diabetes" value="diabete"> Diabetes Mellitus <br><br>
+     <input type="checkbox" name="hipertensao" value="hipertensao"> Hipertensão Arterial Sistêmica/Pressão Alta <br><br>
+     <input type="checkbox" name="cardiopatias" value="cardiopatias"> Cardiopatias <br><br>
+     <input type="checkbox" name="imunodeprimidos" value="imunodeprimidos"> Imunodeprimidos (uso contínuo de corticoides, HIV, diálise/hemodiálise,quimioterapia) <br><br>
+     <input type="checkbox" name="gestantes" value="gestantes"> Gestante <br><br>
+     <input type="checkbox" name="puérpera" value="puérpera"> Puérpera (mulher que teve filho até 42° dia pós parto) <br><br>
+     <input type="checkbox" name="respiratória" value="respiratória"> Doenças respiratórias crônicas (enfisema pulmonar, asma, bronquite) <br><br>
+
+     <input placeholder="Outras comorbidades..." style="width: 350px;" type="text" name="comorbidade"><br><br>
+
+     
+     <h4>Selecione os sintomas apresentados</h4>
+
+     <input type="checkbox" name="febre" value="febre"> Febre <br><br>
+     <input type="checkbox" name="tosse" value="tosse"> Tosse <br><br>
+     <input type="checkbox" name="garganta" value="garganta"> Dor de garganta <br><br>
+     <input type="checkbox" name="respirar" value="respirar"> Dificuldade de respirar <br><br>
+     <input type="checkbox" name="diarréia" value="diarréia"> Diarréia <br><br>
+     <input type="checkbox" name="náusea" value="náusea"> Náusea/vômitos <br><br>
+     <input type="checkbox" name="cefaléia" value="cefaléia"> Cefaléia (dor de cabeça) <br><br>
+     <input type="checkbox" name="coriza" value="coriza"> Coriza <br><br>
+     <input type="checkbox" name="irratabilidade" value="irratabilidade"> Irritabilidade/confusão <br><br>
+     <input type="checkbox" name="adinamia" value="adinamia"> Adinamia (fraqueza) <br><br>
+     <input type="checkbox" name="calafrios" value="calafrios"> Calafrios <br><br>
+     <input type="checkbox" name="congestão" value="congestão"> Congestão nasal <br><br>
+     <input type="checkbox" name="deglutir" value="deglutir"> Dificuldade para deglutir <br><br>
+     <input type="checkbox" name="dispnéia" value="dispnéia"> Dispnéia <br><br>
+     <input type="checkbox" name="olfato" value="olfato"> Perda de olfato em 48hrs <br><br>
+
+     <h4>Descreva sintomas não descritos acima</h4>
+
+     <input placeholder="Outros sintomas..." style="width: 350px;" type="text" name="comorbidade"><br><br>
+
+     <div class="btn-group" >
+
+    <input  type="submit" class="button" id="enviar" onclick="Receber()">
+    <input  type="reset" class="button" id="resetar">
+  </div>
+
+  
+
+</div>
+    
+    </form>
+
+
+  
+    <footer>
+      <div class="wrapper">
+        <div class="footer-box">
+          <div class="company-footer">
+            <h2>Covid-Search</h2>
+            <p>O Maior portal de informações imediatas sobre o covid-19.</p>
+          </div>
+        </div>
+        <div class="footer-box">
+          <div class="articles-footer">
+            <h2>Artigos rescentes</h2>
+            <ul class="footer-list footer-article-list">
+              <li>
+                <a href="https://www.ufrgs.br/coronavirus/base/artigo-lockdown-poderia-salvar-900-vidas-em-porto-alegre/">Artigo – Lockdown poderia salvar 900 vidas em Porto Alegre</a>
+                <span class="article-date">19 de março de 2021</span>
+              </li>
+              <li>
+                <a href="https://www.ufrgs.br/coronavirus/base/artigo-corpo-emocoes-mente-em-tempos-de-isolamento-social/">Artigo: Corpo-emoções-mente em tempos de isolamento social</a>
+                <span class="article-date">29 de maio de 2021</span>
+              </li>
+              <li>
+                <a href="https://www.ufrgs.br/coronavirus/base/artigo-a-assustadora-manipulacao-politica-da-pandemia/">Artigo: A assustadora manipulação política da pandemia</a>
+                <span class="article-date">15 de maio de 2020</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h2>Nos encontre nas redes sociais</h2>
+          <ul class="footer-list">
+            <li>
+              <a href="https://pt-br.facebook.com/coronavirus_info">
+                <i class="fab fa-facebook-square"></i>
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/saude_rs/?hl=pt-br">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gov.br/saude/pt-br/coronavirus/perguntas-e-respostas">
+                <i class="fab fa-linkedin"></i>
+                <span>GOV.BR</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="wrapper">
+          <p>&#169;RafaelEstefan Todos os Direitos Resevados - 2021</p>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+  <script type="text/javascript" src="javascript.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
